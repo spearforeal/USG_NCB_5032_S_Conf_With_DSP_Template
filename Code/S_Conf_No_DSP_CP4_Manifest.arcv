@@ -1,0 +1,105 @@
+[BEGIN]
+  ObjTp=FSgntr
+  Sgntr=ArchiveManifest
+  RelVrs=4.3000.01
+  IsProgram=1
+  TopLevelProgram=S_Conf_No_DSP_CP4.smw
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=S_Conf_No_DSP_CP4.smw
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_MultiFile.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=ConfigSystem.clz
+  Scope=1
+  Module=Config_System_MultiFile.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_Manager_FIle.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_GroupSerial.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_BlockDigital.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_BlockSerial.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Config_System_Analog.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=NEC MultiSync v1.1.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=NEC MultiSync v1.1.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=NEC MultiSync v1.1 Help.pdf
+  Scope=1
+  Module=NEC MultiSync v1.1.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=Super Pusher.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SSHClient.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=SSHClientDriver.clz
+  Scope=1
+  Module=SSHClient.ush
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=UI - Crosspoint Driver.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=USG_NCB_5032_S_Conf_3248_TS_770.sgd_
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=RoutingFeedback.ush
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=TPDriver.umc
+  Scope=1
+[END]
+[BEGIN]
+  ObjTp=ArchiveItem
+  File=TPDriver.ush
+  Scope=1
+[END]

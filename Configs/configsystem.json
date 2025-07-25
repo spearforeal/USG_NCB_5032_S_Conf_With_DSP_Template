@@ -1,0 +1,204 @@
+{
+    "SystemConfig": {
+        "CustomerNumber": [
+            "3248"
+        ],
+        "SiteNumber": [
+            "59288311"
+        ],
+        "WelcomeText": [
+            "Touch Screen to Start"
+        ],
+        "RoutingInstructions": [
+            "Select the source and location you would like to route the source to."
+        ],
+        "ModeNames": [
+            "Routing",
+            "Display Control",
+            "Lighting Control",
+            "Mode 4",
+            "Mode 5",
+            "Mode 6",
+            "Mode 7"
+        ],
+        "ModeVisibility": [
+            "true",
+            "true",
+            "true",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "ModeIcons": [
+            "TV",
+            "Display",
+            "Shades",
+            "Display",
+            "Display",
+            "Display",
+            "Display"
+        ],
+        "SourceNames": [
+            "Source 1",
+            "Source 2",
+            "Source 3",
+            "Source 4",
+            "Source 5",
+            "Source 6",
+            "Source 7",
+            "Source 8",
+            "Source 9",
+            "Source 10"
+        ],
+        "SourceVisibility": [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        "SourceIcons": [
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop"
+        ],
+        "DetinationNames": [
+            "Output 1",
+            "Output 2",
+            "Output 3",
+            "Output 4",
+            "Output 5",
+            "Output 6",
+            "Output 7",
+            "Output 8",
+            "Output 9",
+            "Output 10"
+        ],
+        "DestinationVisibility": [
+            "true",
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "DestinationIcons": [
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display"
+        ],
+        "DisplayNames":[
+            "Display Left",
+            "Display Right",
+            "Display Center",
+            "Side Display",
+            "Side Display",
+            "Side Display",
+            "Side Display",
+            "Side Display",
+            "Side Display",
+            "Side Display"
+        ],
+        "DisplayVisibility":[
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
+        "DisplayPresetNames":[
+            "All On",
+            "All Off",
+            "Preset 3",
+            "Preset 4",
+            "Preset 5",
+            "Preset 6",
+            "Preset 7",
+            "Preset 8",
+            "Preset 9",
+            "Preset 10"
+        ],
+        "DisplayPresetVisibility":[
+            "true",
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+		"USBSwitcherHostname":["Somehost name"],
+        "USBSwitcherUsername": ["Somehost username"],
+        "USBSwitcherPassword": ["Somehost password"],
+        "USBSwitcherDebugname": ["Somehost debugname"],
+        "USBSwitcherPortnumber": [2234],
+		
+		"LightingPresetNames":
+		[
+			"All On",
+			"All Off",
+			"Preset3",
+			"Preset4",
+			"Preset5"
+		],
+		"LightingPresetVisibility":
+		[
+			"False",
+			"False",
+			"False",
+			"False",
+			"False"
+		],
+        "ShadeVisibility":
+        [
+            "True", 
+            "True",
+            "True",
+            "False",
+            "False",
+            "False"
+        ],
+        "ShadeIcon":
+        [
+            "Up Alt",
+            "Stop",
+            "Down Alt",
+            "Stop",
+            "Stop",
+            "Stop"
+        ]
+
+	}
+}
