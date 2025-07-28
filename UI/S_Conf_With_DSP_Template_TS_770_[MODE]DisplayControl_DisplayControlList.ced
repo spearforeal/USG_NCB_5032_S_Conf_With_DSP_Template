@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=S_Conf_With_DSP_Template_TS_770_[MODE]DisplayControl_DisplayControlList.ced
 Hint=DisplayControlList (Smart Object ID=5)
-Code=7
+Code=10
 SGControlType=Subpage Reference List Horizontal
 SGControlName=DisplayControlList
 GUID=89D137F9-D143-42DB-9F2B-FDB308847B54
@@ -376,14 +376,14 @@ OutputList3SigType22=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=7
-CedH=7
+Pp1=10
+CedH=10
 SmartObjId=5d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=7
+H=10
 Tp=1
 HD=TRUE
 DV=5d
@@ -396,7 +396,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=7
+H=10
 Name=S_Conf_With_DSP_Template_TS_770_[MODE]DisplayControl_DisplayControlList.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

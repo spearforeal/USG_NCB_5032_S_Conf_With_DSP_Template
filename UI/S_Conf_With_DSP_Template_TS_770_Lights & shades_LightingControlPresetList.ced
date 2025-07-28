@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=S_Conf_With_DSP_Template_TS_770_Lights & shades_LightingControlPresetList.ced
 Hint=LightingControlPresetList (Smart Object ID=6)
-Code=2
+Code=5
 SGControlType=Subpage Reference List Horizontal
 SGControlName=LightingControlPresetList
 GUID=38064507-78B5-4E68-90C1-EB9CB7058F0A
@@ -256,14 +256,14 @@ OutputList3SigType17=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=2
-CedH=2
+Pp1=5
+CedH=5
 SmartObjId=6d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=2
+H=5
 Tp=1
 HD=TRUE
 DV=6d
@@ -276,7 +276,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=2
+H=5
 Name=S_Conf_With_DSP_Template_TS_770_Lights & shades_LightingControlPresetList.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
