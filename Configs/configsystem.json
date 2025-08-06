@@ -1,11 +1,19 @@
 {
-    "SystemConfig": {
+    "SystemConfig": {   
         "CustomerNumber": [
             "3248"
         ],
         "SiteNumber": [
             "59288311"
         ],
+        "USBSwitcherHostname":["Somehost name"],
+        "USBSwitcherUsername": ["Somehost username"],
+        "USBSwitcherPassword": ["Somehost password"],
+        "USBSwitcherDebugname": ["Somehost debugname"],
+        "USBSwitcherPortnumber": [2234],
+        "Camera1IpAddress":["192.168.1.30"],
+        "Camera1UserName":["Admin"],
+        "Camera1Password":["Password"],
         "WelcomeText": [
             "Touch Screen to Start"
         ],
@@ -159,11 +167,7 @@
             "false",
             "false"
         ],
-		"USBSwitcherHostname":["Somehost name"],
-        "USBSwitcherUsername": ["Somehost username"],
-        "USBSwitcherPassword": ["Somehost password"],
-        "USBSwitcherDebugname": ["Somehost debugname"],
-        "USBSwitcherPortnumber": [2234],
+
 		
 		"LightingPresetNames":
 		[
