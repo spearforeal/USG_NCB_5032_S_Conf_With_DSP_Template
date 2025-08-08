@@ -39,9 +39,9 @@
             "false"
         ],
         "ModeIcons": [
+            "Connector Plate",
             "TV",
-            "Display",
-            "Display",
+            "Camera",
             "Shades",
             "Display",
             "Display",
@@ -212,27 +212,27 @@
             "False"
         ],
         "CameraNames":[
-            "Camera 1",
-            "Camera 2",
-            "Camera 3",
-            "Camera 4",
-            "Camera 5",
-            "Camera 6"
+            "Front Right Camera",
+            "Front Left Camera",
+            "Rear Right Camera",
+            "Rear Left Camera",
+            "Center Camera",
+            "Main Camera"
         ],
         "CameraCtrlVisibility":[
             "True",
             "True",
             "True",
             "True",
-            "False",
+            "True",
             "False"
         ],
         "CameraCtrlNames":[
-            "On",
-            "Off",
+            "Power On",
+            "Power Off",
             "Zoom +",
             "Zoom -",
-            "Ctrl 5",
+            "Home",
             "Ctrl 6"
         ],
         "CameraCtrlIcon":[
