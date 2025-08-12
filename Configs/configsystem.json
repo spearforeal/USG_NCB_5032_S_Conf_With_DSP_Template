@@ -6,6 +6,9 @@
         "SiteNumber": [
             "59288311"
         ],
+        "DSP01IpAddress":["192.168.1.33"],
+        "PasswordInUse":["true"],
+        "UserPassword":["2234"],
         "USBSwitcherHostname":["Somehost name"],
         "USBSwitcherUsername": ["Somehost username"],
         "USBSwitcherPassword": ["Somehost password"],
@@ -167,7 +170,31 @@
             "false",
             "false"
         ],
+        "AudioControlNames":[
+            "Program",
+            "AudioControl2",
+            "AudioControl3",
+            "AudioControl4",
+            "AudioControl5",
+            "AudioControl6",
+            "AudioControl7",
+            "AudioControl8",
+            "AudioControl9",
+            "AudioControl10"
+        ],
 
+        "MicControlNames":[
+            "MicControl1",
+            "MicControl2",
+            "MicControl3",
+            "MicControl4",
+            "MicControl5",
+            "MicControl6",
+            "MicControl7",
+            "MicControl8",
+            "MicControl9",
+            "MicControl10"
+        ]
 		
 		"LightingPresetNames":
 		[
