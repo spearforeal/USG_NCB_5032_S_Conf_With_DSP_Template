@@ -7,7 +7,7 @@
             "59288311"
         ],
         "DSP01IpAddress":["192.168.1.33"],
-        "PasswordInUse":["true"],
+        "PasswordInUse":["false"],
         "UserPassword":["2234"],
         "USBSwitcherHostname":["Somehost name"],
         "USBSwitcherUsername": ["Somehost username"],
@@ -28,7 +28,7 @@
             "Display Control",
             "Camera Control",
             "Lighting Control",
-            "Mode 5",
+            "Audio Control",
             "Mode 6",
             "Mode 7"
         ],
@@ -37,7 +37,7 @@
             "true",
             "true",
             "true",
-            "false",
+            "true",
             "false",
             "false"
         ],
@@ -49,6 +49,20 @@
             "Display",
             "Display",
             "Display"
+        ],
+        "AudioControlSubMenuNames":[
+            "Line",
+            "Mic",
+            "Outputs",
+            "Inputs",
+            "Mixes"
+        ],
+        "AudioControlSubMenuVisibility":[
+            "true",
+            "true",
+            "false",
+            "false",
+            "false"
         ],
         "SourceNames": [
             "Source 1",
@@ -182,7 +196,18 @@
             "AudioControl9",
             "AudioControl10"
         ],
-
+        "AudioControlVisibility":[
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
         "MicControlNames":[
             "MicControl1",
             "MicControl2",
@@ -194,7 +219,19 @@
             "MicControl8",
             "MicControl9",
             "MicControl10"
-        ]
+        ],
+        "MicControlVisibility":[
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
+        ],
 		
 		"LightingPresetNames":
 		[
