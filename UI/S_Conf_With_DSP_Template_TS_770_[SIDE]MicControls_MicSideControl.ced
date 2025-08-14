@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=S_Conf_With_DSP_Template_TS_770_[SIDE]MicControls_MicSideControl.ced
 Hint=MicSideControl (Smart Object ID=15)
-Code=15
+Code=16
 SGControlType=Subpage Reference List Horizontal
 SGControlName=MicSideControl
 GUID=DF30B691-8B65-44ED-BB4E-C5A17F0AB1E6
@@ -240,14 +240,14 @@ OutputList3SigType13=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=15
-CedH=15
+Pp1=16
+CedH=16
 SmartObjId=15d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=15
+H=16
 Tp=1
 HD=TRUE
 DV=15d
@@ -260,7 +260,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=15
+H=16
 Name=S_Conf_With_DSP_Template_TS_770_[SIDE]MicControls_MicSideControl.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

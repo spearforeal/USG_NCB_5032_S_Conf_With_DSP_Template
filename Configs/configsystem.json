@@ -114,7 +114,7 @@
         ],
         "DestinationVisibility": [
             "true",
-            "true",
+            "false",
             "false",
             "false",
             "false",
@@ -150,15 +150,15 @@
         ],
         "DisplayVisibility":[
             "true",
-            "true",
-            "true",
-            "true",
-            "true",
-            "true",
-            "true",
-            "true",
-            "true",
-            "true"
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
         ],
         "DisplayPresetNames":[
             "All On",
@@ -173,8 +173,8 @@
             "Preset 10"
         ],
         "DisplayPresetVisibility":[
-            "true",
-            "true",
+            "false",
+            "false",
             "false",
             "false",
             "false",
@@ -186,15 +186,15 @@
         ],
         "AudioControlNames":[
             "Program",
-            "AudioControl2",
-            "AudioControl3",
-            "AudioControl4",
-            "AudioControl5",
-            "AudioControl6",
-            "AudioControl7",
-            "AudioControl8",
-            "AudioControl9",
-            "AudioControl10"
+            "Audio Control 2",
+            "Audio Control 3",
+            "Audio Control 4",
+            "Audio Control 5",
+            "Audio Control 6",
+            "Audio Control 7",
+            "Audio Control 8",
+            "Audio Control 9",
+            "Audio Control 10"
         ],
         "AudioControlVisibility":[
             "true",
@@ -209,16 +209,16 @@
             "true"
         ],
         "MicControlNames":[
-            "MicControl1",
-            "MicControl2",
-            "MicControl3",
-            "MicControl4",
-            "MicControl5",
-            "MicControl6",
-            "MicControl7",
-            "MicControl8",
-            "MicControl9",
-            "MicControl10"
+            "Mic Control 1",
+            "Mic Control 2",
+            "Mic Control 3",
+            "Mic Control 4",
+            "Mic Control 5",
+            "Mic Control 6",
+            "Mic Control 7",
+            "Mic Control 8",
+            "Mic Control 9",
+            "Mic Control 10"
         ],
         "MicControlVisibility":[
             "true",
@@ -318,6 +318,18 @@
             "Preset 2",
             "Preset 3",
             "Preset 4"
+        ],
+        "CameraControlSourceVisible":[
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "true"
         ]
 
 	}
