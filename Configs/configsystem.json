@@ -29,7 +29,7 @@
             "Camera Control",
             "Lighting Control",
             "Audio Control",
-            "Mode 6",
+            "ATC",
             "Mode 7"
         ],
         "ModeVisibility": [
@@ -38,7 +38,7 @@
             "true",
             "true",
             "true",
-            "false",
+            "true",
             "false"
         ],
         "ModeIcons": [
