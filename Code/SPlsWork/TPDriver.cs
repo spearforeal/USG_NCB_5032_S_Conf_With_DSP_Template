@@ -58,42 +58,59 @@ namespace UserModule_TPDRIVER
         InOutArray<Crestron.Logos.SplusObjects.DigitalOutput> MENU11SUB_FB;
         InOutArray<Crestron.Logos.SplusObjects.DigitalOutput> MENU12SUB_FB;
         ushort X = 0;
-        private void FNCLOSEALLPAGES (  SplusExecutionContext __context__ ) 
+        private void FNCLOSEALLFOOTERS (  SplusExecutionContext __context__ ) 
             { 
             
             __context__.SourceCodeLine = 81;
+            ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
+            ushort __FN_FOREND_VAL__1 = (ushort)7; 
+            int __FN_FORSTEP_VAL__1 = (int)1; 
+            for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
+                { 
+                __context__.SourceCodeLine = 83;
+                FOOTER_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 81;
+                } 
+            
+            
+            }
+            
+        private void FNCLOSEALLPAGES (  SplusExecutionContext __context__ ) 
+            { 
+            
+            __context__.SourceCodeLine = 88;
             ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
             ushort __FN_FOREND_VAL__1 = (ushort)12; 
             int __FN_FORSTEP_VAL__1 = (int)1; 
             for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
                 { 
-                __context__.SourceCodeLine = 83;
-                MENU_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 84;
-                MENU1SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 85;
-                MENU2SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 86;
-                MENU3SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 87;
-                MENU4SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 88;
-                MENU5SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 89;
-                MENU6SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 __context__.SourceCodeLine = 90;
-                MENU7SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                MENU_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 __context__.SourceCodeLine = 91;
-                MENU8SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                MENU1SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 __context__.SourceCodeLine = 92;
-                MENU9SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                MENU2SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 __context__.SourceCodeLine = 93;
-                MENU10SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                MENU3SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 __context__.SourceCodeLine = 94;
-                MENU11SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                MENU4SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 __context__.SourceCodeLine = 95;
+                MENU5SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 96;
+                MENU6SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 97;
+                MENU7SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 98;
+                MENU8SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 99;
+                MENU9SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 100;
+                MENU10SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 101;
+                MENU11SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
+                __context__.SourceCodeLine = 102;
                 MENU12SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
-                __context__.SourceCodeLine = 81;
+                __context__.SourceCodeLine = 88;
                 } 
             
             
@@ -107,7 +124,7 @@ namespace UserModule_TPDRIVER
             {
                 SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
                 
-                __context__.SourceCodeLine = 100;
+                __context__.SourceCodeLine = 107;
                 Functions.Pulse ( 50, STARTPAGE_FB ) ; 
                 
                 
@@ -126,7 +143,7 @@ namespace UserModule_TPDRIVER
         {
             SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
             
-            __context__.SourceCodeLine = 104;
+            __context__.SourceCodeLine = 111;
             Functions.Pulse ( 50, INDEXPAGE_FB ) ; 
             
             
@@ -145,23 +162,23 @@ object STARTUP_OnPush_2 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 108;
+        __context__.SourceCodeLine = 115;
         STARTPAGE_FB  .Value = (ushort) ( 0 ) ; 
-        __context__.SourceCodeLine = 109;
+        __context__.SourceCodeLine = 116;
         SYSTEMON_FB  .Value = (ushort) ( 1 ) ; 
-        __context__.SourceCodeLine = 110;
+        __context__.SourceCodeLine = 117;
         SYSTEMOFF_FB  .Value = (ushort) ( 0 ) ; 
-        __context__.SourceCodeLine = 111;
+        __context__.SourceCodeLine = 118;
         SHUTDOWNPAGE_FB  .Value = (ushort) ( 0 ) ; 
-        __context__.SourceCodeLine = 112;
+        __context__.SourceCodeLine = 119;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)7; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 114;
+            __context__.SourceCodeLine = 121;
             FOOTER_FB [ X]  .Value = (ushort) ( 0 ) ; 
-            __context__.SourceCodeLine = 112;
+            __context__.SourceCodeLine = 119;
             } 
         
         
@@ -181,13 +198,13 @@ object SHUTDOWNCONFIRM_OnPush_3 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 119;
+        __context__.SourceCodeLine = 126;
         INDEXPAGE_FB  .Value = (ushort) ( 0 ) ; 
-        __context__.SourceCodeLine = 120;
+        __context__.SourceCodeLine = 127;
         SYSTEMON_FB  .Value = (ushort) ( 0 ) ; 
-        __context__.SourceCodeLine = 121;
+        __context__.SourceCodeLine = 128;
         SYSTEMOFF_FB  .Value = (ushort) ( 1 ) ; 
-        __context__.SourceCodeLine = 122;
+        __context__.SourceCodeLine = 129;
         SHUTDOWNPAGE_FB  .Value = (ushort) ( 0 ) ; 
         
         
@@ -206,7 +223,7 @@ object SHUTDOWNSUBPAGE_OnPush_4 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 126;
+        __context__.SourceCodeLine = 133;
         SHUTDOWNPAGE_FB  .Value = (ushort) ( 1 ) ; 
         
         
@@ -225,7 +242,7 @@ object SHUTDOWNCANCEL_OnPush_5 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 130;
+        __context__.SourceCodeLine = 137;
         SHUTDOWNPAGE_FB  .Value = (ushort) ( 0 ) ; 
         
         
@@ -244,7 +261,7 @@ object CLOSEALLPAGES_OnPush_6 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 134;
+        __context__.SourceCodeLine = 141;
         FNCLOSEALLPAGES (  __context__  ) ; 
         
         
@@ -263,20 +280,20 @@ object MENU_OnPush_7 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 138;
+        __context__.SourceCodeLine = 145;
         FNCLOSEALLPAGES (  __context__  ) ; 
-        __context__.SourceCodeLine = 139;
+        __context__.SourceCodeLine = 146;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 141;
+            __context__.SourceCodeLine = 148;
             MENU_FB [ X]  .Value = (ushort) ( 0 ) ; 
-            __context__.SourceCodeLine = 139;
+            __context__.SourceCodeLine = 146;
             } 
         
-        __context__.SourceCodeLine = 143;
+        __context__.SourceCodeLine = 150;
         MENU_FB [ Functions.GetLastModifiedArrayIndex( __SignalEventArg__ )]  .Value = (ushort) ( 1 ) ; 
         
         
@@ -295,26 +312,26 @@ object MENU1SUB_OnPush_8 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 147;
+        __context__.SourceCodeLine = 154;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 149;
+            __context__.SourceCodeLine = 156;
             if ( Functions.TestForTrue  ( ( MENU1SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 149;
+                __context__.SourceCodeLine = 156;
                 MENU1SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 150;
+                __context__.SourceCodeLine = 157;
                 MENU1SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 147;
+            __context__.SourceCodeLine = 154;
             } 
         
         
@@ -334,26 +351,26 @@ object MENU2SUB_OnPush_9 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 155;
+        __context__.SourceCodeLine = 162;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 157;
+            __context__.SourceCodeLine = 164;
             if ( Functions.TestForTrue  ( ( MENU2SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 157;
+                __context__.SourceCodeLine = 164;
                 MENU2SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 158;
+                __context__.SourceCodeLine = 165;
                 MENU2SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 155;
+            __context__.SourceCodeLine = 162;
             } 
         
         
@@ -373,26 +390,26 @@ object MENU3SUB_OnPush_10 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 164;
+        __context__.SourceCodeLine = 171;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 166;
+            __context__.SourceCodeLine = 173;
             if ( Functions.TestForTrue  ( ( MENU3SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 166;
+                __context__.SourceCodeLine = 173;
                 MENU3SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 167;
+                __context__.SourceCodeLine = 174;
                 MENU3SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 164;
+            __context__.SourceCodeLine = 171;
             } 
         
         
@@ -412,26 +429,26 @@ object MENU4SUB_OnPush_11 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 173;
+        __context__.SourceCodeLine = 180;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 175;
+            __context__.SourceCodeLine = 182;
             if ( Functions.TestForTrue  ( ( MENU4SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 175;
+                __context__.SourceCodeLine = 182;
                 MENU4SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 176;
+                __context__.SourceCodeLine = 183;
                 MENU4SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 173;
+            __context__.SourceCodeLine = 180;
             } 
         
         
@@ -451,26 +468,26 @@ object MENU5SUB_OnPush_12 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 181;
+        __context__.SourceCodeLine = 188;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 183;
+            __context__.SourceCodeLine = 190;
             if ( Functions.TestForTrue  ( ( MENU5SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 183;
+                __context__.SourceCodeLine = 190;
                 MENU5SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 184;
+                __context__.SourceCodeLine = 191;
                 MENU5SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 181;
+            __context__.SourceCodeLine = 188;
             } 
         
         
@@ -490,26 +507,26 @@ object MENU6SUB_OnPush_13 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 189;
+        __context__.SourceCodeLine = 196;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 191;
+            __context__.SourceCodeLine = 198;
             if ( Functions.TestForTrue  ( ( MENU6SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 191;
+                __context__.SourceCodeLine = 198;
                 MENU6SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 192;
+                __context__.SourceCodeLine = 199;
                 MENU6SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 189;
+            __context__.SourceCodeLine = 196;
             } 
         
         
@@ -529,26 +546,26 @@ object MENU7SUB_OnPush_14 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 197;
+        __context__.SourceCodeLine = 204;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 199;
+            __context__.SourceCodeLine = 206;
             if ( Functions.TestForTrue  ( ( MENU7SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 199;
+                __context__.SourceCodeLine = 206;
                 MENU7SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 200;
+                __context__.SourceCodeLine = 207;
                 MENU7SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
-            __context__.SourceCodeLine = 197;
+            __context__.SourceCodeLine = 204;
             } 
         
         
@@ -568,26 +585,26 @@ object MENU8SUB_OnPush_15 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 205;
+        __context__.SourceCodeLine = 212;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 207;
+            __context__.SourceCodeLine = 214;
             if ( Functions.TestForTrue  ( ( MENU8SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 207;
+                __context__.SourceCodeLine = 214;
                 MENU8SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 208;
+                __context__.SourceCodeLine = 215;
                 MENU8SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 205;
+            __context__.SourceCodeLine = 212;
             } 
         
         
@@ -607,26 +624,26 @@ object MENU9SUB_OnPush_16 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 213;
+        __context__.SourceCodeLine = 220;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 215;
+            __context__.SourceCodeLine = 222;
             if ( Functions.TestForTrue  ( ( MENU9SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 215;
+                __context__.SourceCodeLine = 222;
                 MENU9SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 216;
+                __context__.SourceCodeLine = 223;
                 MENU9SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 213;
+            __context__.SourceCodeLine = 220;
             } 
         
         
@@ -646,26 +663,26 @@ object MENU10SUB_OnPush_17 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 221;
+        __context__.SourceCodeLine = 228;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 223;
+            __context__.SourceCodeLine = 230;
             if ( Functions.TestForTrue  ( ( MENU10SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 223;
+                __context__.SourceCodeLine = 230;
                 MENU10SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 224;
+                __context__.SourceCodeLine = 231;
                 MENU10SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 221;
+            __context__.SourceCodeLine = 228;
             } 
         
         
@@ -685,26 +702,26 @@ object MENU11SUB_OnPush_18 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 229;
+        __context__.SourceCodeLine = 236;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 231;
+            __context__.SourceCodeLine = 238;
             if ( Functions.TestForTrue  ( ( MENU11SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 231;
+                __context__.SourceCodeLine = 238;
                 MENU11SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 232;
+                __context__.SourceCodeLine = 239;
                 MENU11SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 229;
+            __context__.SourceCodeLine = 236;
             } 
         
         
@@ -724,26 +741,26 @@ object MENU12SUB_OnPush_19 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 237;
+        __context__.SourceCodeLine = 244;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)12; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 239;
+            __context__.SourceCodeLine = 246;
             if ( Functions.TestForTrue  ( ( MENU12SUB[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 239;
+                __context__.SourceCodeLine = 246;
                 MENU12SUB_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 240;
+                __context__.SourceCodeLine = 247;
                 MENU12SUB_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 237;
+            __context__.SourceCodeLine = 244;
             } 
         
         
@@ -763,28 +780,47 @@ object FOOTER_OnPush_20 ( Object __EventInfo__ )
     {
         SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
         
-        __context__.SourceCodeLine = 245;
+        __context__.SourceCodeLine = 252;
         ushort __FN_FORSTART_VAL__1 = (ushort) ( 1 ) ;
         ushort __FN_FOREND_VAL__1 = (ushort)7; 
         int __FN_FORSTEP_VAL__1 = (int)1; 
         for ( X  = __FN_FORSTART_VAL__1; (__FN_FORSTEP_VAL__1 > 0)  ? ( (X  >= __FN_FORSTART_VAL__1) && (X  <= __FN_FOREND_VAL__1) ) : ( (X  <= __FN_FORSTART_VAL__1) && (X  >= __FN_FOREND_VAL__1) ) ; X  += (ushort)__FN_FORSTEP_VAL__1) 
             { 
-            __context__.SourceCodeLine = 247;
+            __context__.SourceCodeLine = 254;
             if ( Functions.TestForTrue  ( ( FOOTER[ X ] .Value)  ) ) 
                 {
-                __context__.SourceCodeLine = 247;
+                __context__.SourceCodeLine = 254;
                 FOOTER_FB [ X]  .Value = (ushort) ( 1 ) ; 
                 }
             
             else 
                 {
-                __context__.SourceCodeLine = 248;
+                __context__.SourceCodeLine = 255;
                 FOOTER_FB [ X]  .Value = (ushort) ( 0 ) ; 
                 }
             
-            __context__.SourceCodeLine = 245;
+            __context__.SourceCodeLine = 252;
             } 
         
+        
+        
+    }
+    catch(Exception e) { ObjectCatchHandler(e); }
+    finally { ObjectFinallyHandler( __SignalEventArg__ ); }
+    return this;
+    
+}
+
+object FOOTERCLOSE_OnPush_21 ( Object __EventInfo__ )
+
+    { 
+    Crestron.Logos.SplusObjects.SignalEventArgs __SignalEventArg__ = (Crestron.Logos.SplusObjects.SignalEventArgs)__EventInfo__;
+    try
+    {
+        SplusExecutionContext __context__ = SplusThreadStartCode(__SignalEventArg__);
+        
+        __context__.SourceCodeLine = 260;
+        FNCLOSEALLFOOTERS (  __context__  ) ; 
         
         
     }
@@ -800,9 +836,9 @@ public override object FunctionMain (  object __obj__ )
     {
         SplusExecutionContext __context__ = SplusFunctionMainStartCode();
         
-        __context__.SourceCodeLine = 253;
+        __context__.SourceCodeLine = 265;
         SYSTEMOFF_FB  .Value = (ushort) ( 1 ) ; 
-        __context__.SourceCodeLine = 254;
+        __context__.SourceCodeLine = 266;
         STARTPAGE_FB  .Value = (ushort) ( 1 ) ; 
         
         
@@ -1102,6 +1138,7 @@ public override void LogosSplusInitialize()
     for( uint i = 0; i < 7; i++ )
         FOOTER[i+1].OnDigitalPush.Add( new InputChangeHandlerWrapper( FOOTER_OnPush_20, false ) );
         
+    FOOTERCLOSE.OnDigitalPush.Add( new InputChangeHandlerWrapper( FOOTERCLOSE_OnPush_21, false ) );
     
     _SplusNVRAM.PopulateCustomAttributeList( true );
     

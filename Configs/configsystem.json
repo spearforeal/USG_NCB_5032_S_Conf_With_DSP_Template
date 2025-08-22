@@ -6,6 +6,7 @@
         "SiteNumber": [
             "59288311"
         ],
+        "AutoshutdownEnable":["True"],
         "DSP01IpAddress":["192.168.1.176"],
         "PasswordInUse":["false"],
         "UserPassword":["2234"],
@@ -26,6 +27,7 @@
         "SingleDestRoutingInstructions":[
             "Please select your source below."
         ],
+        "CameraSrcInstructions":["Please select your source"],
         "ModeNames": [
             "Routing",
             "Display Control",
@@ -41,7 +43,7 @@
             "true",
             "true",
             "true",
-            "true",
+            "false",
             "false"
         ],
         "ModeIcons": [
@@ -49,7 +51,7 @@
             "TV",
             "Camera",
             "Shades",
-            "Speaker",
+            "Volume",
             "Phone",
             "Display"
         ],
@@ -189,7 +191,7 @@
         ],
         "AudioControlNames":[
             "Program",
-            "Audio Control 2",
+            "Phone Incoming",
             "Audio Control 3",
             "Audio Control 4",
             "Audio Control 5",
@@ -212,7 +214,7 @@
             "true"
         ],
         "MicControlNames":[
-            "Mic Control 1",
+            "Privacy",
             "Mic Control 2",
             "Mic Control 3",
             "Mic Control 4",
@@ -246,10 +248,10 @@
 		],
 		"LightingPresetVisibility":
 		[
+			"true",
 			"False",
 			"False",
-			"False",
-			"False",
+			"true",
 			"False"
 		],
         "ShadeVisibility":
