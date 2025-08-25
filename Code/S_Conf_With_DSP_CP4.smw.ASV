@@ -2965,79 +2965,6 @@ Sy1=0
 Mx1=0
 ]
 [
-ObjTp=Bw
-H=1
-Lx=0
-Ly=333
-Rx=494
-Ry=666
-Xm=-1
-Ym=-1
-SH=780
-Z=100
-Ht=1
-Hi=2
-]
-[
-ObjTp=Bw
-H=1
-Lx=0
-Ly=0
-Rx=494
-Ry=333
-Xm=-1
-Ym=-1
-SH=782
-Z=100
-Ht=1
-Hi=3
-]
-[
-ObjTp=Bw
-H=1
-Lx=494
-Ly=444
-Rx=988
-Ry=666
-Xm=-1
-Ym=-1
-SH=174
-Z=100
-P=70
-Ht=1
-Hi=148
-]
-[
-ObjTp=Bw
-H=1
-Lx=494
-Ly=222
-Rx=988
-Ry=444
-Xm=-1
-Ym=-1
-SH=135
-Z=100
-P=260
-Ht=4
-Hi=790
-]
-[
-ObjTp=Bw
-H=1
-Lx=494
-Ly=0
-Rx=988
-Ry=222
-Xm=-1
-Ym=-1
-SH=137
-Z=100
-P=145
-Ht=1
-Hi=776
-]
-[
 ObjTp=Et
 H=1
 DvH=587
@@ -3632,21 +3559,19 @@ SmVr=1220
 PrH=28
 CF=2
 Cmn1=SystemConfig\\
-mC=14
-C1=31
-C2=59
-C3=32
-C4=41
-C5=50
-C6=60
-C7=69
-C8=231
-C9=140
-C10=257
-C11=317
-C12=338
-C13=700
-C14=764
+mC=12
+C1=32
+C2=41
+C3=50
+C4=60
+C5=69
+C6=231
+C7=140
+C8=257
+C9=317
+C10=338
+C11=700
+C12=764
 ]
 [
 ObjTp=Sm
@@ -3654,25 +3579,28 @@ H=31
 SmC=103
 Nm=Config_System_GroupSerial.usp
 ObjVer=1
-PrH=30
+PrH=777
 CF=2
-n2I=5
-mI=5
+n2I=6
+mI=6
 I3=11
 I4=11
 I5=11
-mO=5
-tO=5
+I6=11
+mO=6
+tO=6
 O3=153
 O4=152
 O5=1726
-mP=6
+O6=1759
+mP=7
 P1=
-P2=SystemConfig
-P3=
+P2=SystemText
+P3=0d
 P4=WelcomeText
 P5=RoutingInstructions
 P6=SingleDestRoutingInstructions
+P7=CameraSrcInstructions
 ]
 [
 ObjTp=Sm
@@ -4734,13 +4662,14 @@ SmC=858
 Nm=Make String Permanent
 ObjVer=1
 SmVr=1220
-PrH=30
+PrH=777
 CF=2
-n1I=3
-mI=3
+n1I=4
+mI=4
 I1=153
 I2=152
 I3=1726
+I4=1759
 mP=1
 P1=150d
 ]
@@ -7560,6 +7489,7 @@ O783=388
 O784=1723
 O790=1739
 O791=1740
+O794=1760
 O831=683
 O846=685
 O867=690
@@ -7984,6 +7914,7 @@ I777=152
 I778=1726
 I784=1756
 I785=1758
+I788=1759
 I825=684
 I840=686
 I861=689
@@ -9554,6 +9485,7 @@ I148=1739
 I149=1740
 I150=970
 I151=1650
+I152=1760
 mO=139
 tO=171
 O2=391
@@ -25962,10 +25894,8 @@ SmVr=1220
 PrH=28
 CF=2
 Cmn1=SystemText
-mC=3
-C1=774
-C2=773
-C3=778
+mC=1
+C1=778
 ]
 [
 ObjTp=Sm
@@ -25974,7 +25904,7 @@ SmC=858
 Nm=Make String Permanent
 ObjVer=1
 SmVr=1220
-PrH=772
+PrH=775
 CF=2
 n1I=14
 mI=14
@@ -26001,7 +25931,7 @@ H=774
 SmC=103
 Nm=Config_System_GroupSerial.usp
 ObjVer=1
-PrH=772
+PrH=776
 CF=2
 n2I=16
 mI=16
@@ -26064,8 +25994,9 @@ SmVr=1220
 PrH=778
 CF=2
 Cmn1=HelpMessage
-mC=1
-C1=776
+mC=2
+C1=773
+C2=776
 ]
 [
 ObjTp=Sm
@@ -26078,7 +26009,7 @@ PrH=775
 CF=2
 Cmn1=Modes\\
 mC=1
-C1=777
+C1=774
 ]
 [
 ObjTp=Sm
@@ -26087,9 +26018,12 @@ SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
-PrH=776
+PrH=778
 CF=2
-Cmn1=Mode 1
+Cmn1=Instructions
+mC=2
+C1=59
+C2=31
 ]
 [
 ObjTp=Sm
@@ -26101,8 +26035,9 @@ SmVr=1220
 PrH=772
 CF=2
 Cmn1=Room A
-mC=1
+mC=2
 C1=775
+C2=777
 ]
 [
 ObjTp=Sm
@@ -26115,23 +26050,23 @@ PrH=768
 CF=2
 Cmn1=Mode 1
 mC=1
-C1=780
+C1=794
 ]
 [
 ObjTp=Sm
 H=780
-SmC=56
-Nm=Serial Buffer
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
-PrH=779
+PrH=781
 CF=2
 n1I=3
 n1O=2
 mI=3
-I1=189
-I2=1757
-I3=1743
+I1=196
+I2=1744
+I3=1745
 mO=2
 tO=2
 O1=1756
@@ -26148,46 +26083,13 @@ PrH=768
 CF=2
 Cmn1=Mode 2
 mC=1
-C1=782
+C1=780
 ]
 [
 ObjTp=Sm
 H=782
-SmC=56
-Nm=Serial Buffer
-ObjVer=1
-SmVr=1220
-PrH=781
-CF=2
-n1I=3
-n1O=2
-mI=3
-I1=190
-I2=1744
-I3=1745
-mO=2
-tO=2
-O1=1756
-O2=1758
-]
-[
-ObjTp=Sm
-H=783
-SmC=156
-Nm=SUBSYSTEM
-ObjVer=1
-SmVr=1220
-PrH=768
-CF=2
-Cmn1=Mode 3
-mC=1
-C1=784
-]
-[
-ObjTp=Sm
-H=784
-SmC=56
-Nm=Serial Buffer
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=783
@@ -26205,22 +26107,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=785
+H=783
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 4
+Cmn1=Mode 3
 mC=1
-C1=786
+C1=782
 ]
 [
 ObjTp=Sm
-H=786
-SmC=56
-Nm=Serial Buffer
+H=784
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=785
@@ -26238,22 +26140,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=787
+H=785
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 5
+Cmn1=Mode 4
 mC=1
-C1=788
+C1=784
 ]
 [
 ObjTp=Sm
-H=788
-SmC=56
-Nm=Serial Buffer
+H=786
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=787
@@ -26271,22 +26173,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=789
+H=787
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 6
+Cmn1=Mode 5
 mC=1
-C1=790
+C1=786
 ]
 [
 ObjTp=Sm
-H=790
-SmC=56
-Nm=Serial Buffer
+H=788
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=789
@@ -26304,22 +26206,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=791
+H=789
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 7
+Cmn1=Mode 6
 mC=1
-C1=792
+C1=788
 ]
 [
 ObjTp=Sm
-H=792
-SmC=56
-Nm=Serial Buffer
+H=790
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=791
@@ -26330,6 +26232,39 @@ mI=3
 I1=202
 I2=1754
 I3=1755
+mO=2
+tO=2
+O1=1756
+O2=1758
+]
+[
+ObjTp=Sm
+H=791
+SmC=156
+Nm=SUBSYSTEM
+ObjVer=1
+SmVr=1220
+PrH=768
+CF=2
+Cmn1=Mode 7
+mC=1
+C1=790
+]
+[
+ObjTp=Sm
+H=794
+SmC=46
+Nm=Analog Buffer
+ObjVer=1
+SmVr=1220
+PrH=779
+CF=2
+n1I=3
+n1O=2
+mI=3
+I1=197
+I2=1757
+I3=1743
 mO=2
 tO=2
 O1=1756
@@ -35794,5 +35729,17 @@ SgTp=4
 ObjTp=Sg
 H=1758
 Nm=[ROOM][A]CurrentModeHelpMessage2$
+SgTp=4
+]
+[
+ObjTp=Sg
+H=1759
+Nm=[SYS]CameraInstructions$
+SgTp=4
+]
+[
+ObjTp=Sg
+H=1760
+Nm=[TP][01]CameraInstructions$
 SgTp=4
 ]

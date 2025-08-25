@@ -25820,19 +25820,18 @@ O8=8
 O9=11
 mP=16
 P1=
-P2=0d
-P3=0d
-P4=0d
-P5=0d
-P6=0d
-P7=0d
-P8=0d
-P9=0d
-P10=0d
-P11=0d
+P2=
+P3=
+P4=
+P5=
+P6=
+P7=
+P8=
+P9=
+P10=
+P11=
 P12=systemtext.json
 P13=NVRAM
-Plb13=NVRAM
 P14=""
 P15=RW
 P16=us-ascii
@@ -25966,7 +25965,7 @@ O16=1755
 mP=17
 P1=
 P2=SystemText
-P3=0d
+P3=
 P4=Mode1HelpMessage1
 P5=Mode1HelpMessage2
 P6=Mode2HelpMessage1
@@ -26043,46 +26042,13 @@ PrH=768
 CF=2
 Cmn1=Mode 1
 mC=1
-C1=780
+C1=794
 ]
 [
 ObjTp=Sm
 H=780
-SmC=56
-Nm=Serial Buffer
-ObjVer=1
-SmVr=1220
-PrH=779
-CF=2
-n1I=3
-n1O=2
-mI=3
-I1=197
-I2=1757
-I3=1743
-mO=2
-tO=2
-O1=1756
-O2=1758
-]
-[
-ObjTp=Sm
-H=781
-SmC=156
-Nm=SUBSYSTEM
-ObjVer=1
-SmVr=1220
-PrH=768
-CF=2
-Cmn1=Mode 2
-mC=1
-C1=782
-]
-[
-ObjTp=Sm
-H=782
-SmC=56
-Nm=Serial Buffer
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=781
@@ -26100,22 +26066,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=783
+H=781
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 3
+Cmn1=Mode 2
 mC=1
-C1=784
+C1=780
 ]
 [
 ObjTp=Sm
-H=784
-SmC=56
-Nm=Serial Buffer
+H=782
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=783
@@ -26133,22 +26099,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=785
+H=783
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 4
+Cmn1=Mode 3
 mC=1
-C1=786
+C1=782
 ]
 [
 ObjTp=Sm
-H=786
-SmC=56
-Nm=Serial Buffer
+H=784
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=785
@@ -26166,22 +26132,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=787
+H=785
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 5
+Cmn1=Mode 4
 mC=1
-C1=788
+C1=784
 ]
 [
 ObjTp=Sm
-H=788
-SmC=56
-Nm=Serial Buffer
+H=786
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=787
@@ -26199,22 +26165,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=789
+H=787
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 6
+Cmn1=Mode 5
 mC=1
-C1=790
+C1=786
 ]
 [
 ObjTp=Sm
-H=790
-SmC=56
-Nm=Serial Buffer
+H=788
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=789
@@ -26232,22 +26198,22 @@ O2=1758
 ]
 [
 ObjTp=Sm
-H=791
+H=789
 SmC=156
 Nm=SUBSYSTEM
 ObjVer=1
 SmVr=1220
 PrH=768
 CF=2
-Cmn1=Mode 7
+Cmn1=Mode 6
 mC=1
-C1=792
+C1=788
 ]
 [
 ObjTp=Sm
-H=792
-SmC=56
-Nm=Serial Buffer
+H=790
+SmC=46
+Nm=Analog Buffer
 ObjVer=1
 SmVr=1220
 PrH=791
@@ -26258,6 +26224,39 @@ mI=3
 I1=202
 I2=1754
 I3=1755
+mO=2
+tO=2
+O1=1756
+O2=1758
+]
+[
+ObjTp=Sm
+H=791
+SmC=156
+Nm=SUBSYSTEM
+ObjVer=1
+SmVr=1220
+PrH=768
+CF=2
+Cmn1=Mode 7
+mC=1
+C1=790
+]
+[
+ObjTp=Sm
+H=794
+SmC=46
+Nm=Analog Buffer
+ObjVer=1
+SmVr=1220
+PrH=779
+CF=2
+n1I=3
+n1O=2
+mI=3
+I1=197
+I2=1757
+I3=1743
 mO=2
 tO=2
 O1=1756

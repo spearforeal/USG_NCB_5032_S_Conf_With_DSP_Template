@@ -1,5 +1,16 @@
 {
     "SystemText":{
+        "WelcomeText": [
+            "Touch Screen to Start"
+        ],
+        "ShutdownInstructions":["Are you sure you want to shutdown"],
+        "RoutingInstructions": [
+            "Select the source and location you would like to route the source to."
+        ],
+        "SingleDestRoutingInstructions":[
+            "Please select your source below."
+        ],
+        "CameraSrcInstructions":["Please select your source"],
         "Mode1HelpMessage1":["This message is the mode 1 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
         "Mode1HelpMessage2":["This message is the mode 1 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
 

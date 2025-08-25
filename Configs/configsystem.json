@@ -18,16 +18,6 @@
         "Camera1IpAddress":["192.168.1.30"],
         "Camera1UserName":["Admin"],
         "Camera1Password":["Password"],
-        "WelcomeText": [
-            "Touch Screen to Start"
-        ],
-        "RoutingInstructions": [
-            "Select the source and location you would like to route the source to."
-        ],
-        "SingleDestRoutingInstructions":[
-            "Please select your source below."
-        ],
-        "CameraSrcInstructions":["Please select your source"],
         "ModeNames": [
             "Routing",
             "Display Control",
