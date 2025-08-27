@@ -232,23 +232,29 @@
 		[
 			"All On",
 			"All Off",
-			"Preset3",
-			"Preset4",
-			"Preset5"
+			"Scene 1",
+			"Scene 2",
+			"Scene 3",
+            "Scene 4",
+            "Up",
+            "Down"
 		],
 		"LightingPresetVisibility":
 		[
 			"true",
-			"False",
-			"False",
+			"True",
+			"True",
 			"true",
-			"False"
+			"True",
+            "True",
+            "True",
+            "True"
 		],
         "ShadeVisibility":
         [
-            "True", 
-            "True",
-            "True",
+            "false", 
+            "false",
+            "false",
             "False",
             "False",
             "False"
@@ -295,12 +301,12 @@
             "Ctrl 6"
         ],
         "CameraCtrlIcon":[
-            "Power",
-            "Power",
-            "Magnifying Glass",
-            "Magnifying Glass",
-            "Power",
-            "Power"
+            27,
+            27,
+            61,
+            61,
+            14,
+            61
         ],
         "CameraPresetVisibility":[
             "True",
