@@ -1,5 +1,6 @@
 {
     "SystemConfig": {   
+        "SystemName": ["NCB_RM_400"],
         "CustomerNumber": [
             "3248"
         ],
@@ -53,8 +54,8 @@
             "Mixes"
         ],
         "AudioControlSubMenuVisibility":[
-            "true",
-            "true",
+            "false",
+            "false",
             "false",
             "false",
             "false"
