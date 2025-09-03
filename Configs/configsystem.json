@@ -20,7 +20,7 @@
         "Camera1UserName":["Admin"],
         "Camera1Password":["Password"],
         "ModeNames": [
-            "Routing",
+            "Not Routing",
             "Display Control",
             "Camera Control",
             "Lighting Control",
@@ -39,7 +39,7 @@
         ],
         "ModeIcons": [
             "Connector Plate",
-            "TV",
+            "Display",
             "Camera",
             "Shades",
             "Volume",
@@ -80,9 +80,9 @@
             "true",
             "true",
             "true",
-            "true",
-            "true",
-            "true"
+            "false",
+            "false",
+            "false"
         ],
         "SourceIcons": [
             "Laptop",
