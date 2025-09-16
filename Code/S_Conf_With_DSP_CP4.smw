@@ -776,6 +776,8 @@ SlC=349
 DvF=Sl
 DvVr=1220
 Ad=03
+mC=1
+C1=589
 ]
 [
 ObjTp=Dv
@@ -1568,6 +1570,21 @@ RelStat=Release
 ProdLine=3-Series
 CmH=3
 DbH=7
+]
+[
+ObjTp=Dv
+Nm=CP3 RS-232 only two-way serial driver
+H=589
+PrH=519
+DvC=2900
+ObjVer=1
+DvVr=1220
+Ad=03
+SmH=675
+RelStat=Release
+ProdLine=3-Series
+CmH=5
+DbH=9
 ]
 [
 ObjTp=Dv
@@ -2957,6 +2974,18 @@ DBt=8
 sHs=(None)
 ]
 [
+ObjTp=Cm
+H=5
+DvH=589
+Ptl=(RS232)
+Tis=1
+BRt=9600
+Pty=N
+SBt=1
+DBt=8
+sHs=(None)
+]
+[
 ObjTp=Db
 H=1
 DvH=696
@@ -3018,6 +3047,14 @@ Mnf=Crestron
 Mdl=CP3 RS-232 only two-way serial driver
 ]
 [
+ObjTp=Db
+H=9
+DvH=589
+Whc=3
+Mnf=Crestron
+Mdl=CP3 RS-232 only two-way serial driver
+]
+[
 ObjTp=Cs
 H=1
 DvH=693
@@ -3036,34 +3073,6 @@ Nm1=\
 Sx1=0
 Sy1=0
 Mx1=0
-]
-[
-ObjTp=Bw
-H=1
-Lx=0
-Ly=427
-Rx=1475
-Ry=854
-Xm=-1
-Ym=-1
-SH=673
-Z=100
-Ht=4
-Hi=1
-]
-[
-ObjTp=Bw
-H=1
-Lx=0
-Ly=0
-Rx=1475
-Ry=427
-Xm=-1
-Ym=-1
-SH=173
-Z=100
-Ht=4
-Hi=1
 ]
 [
 ObjTp=Et
@@ -3214,9 +3223,10 @@ DvH=516
 PrH=1
 CF=2
 Cmn1=COM Ports
-mC=2
+mC=3
 C1=173
 C2=673
+C3=675
 ]
 [
 ObjTp=Sm
@@ -9470,10 +9480,8 @@ n1I=5
 n1O=3
 Cmn1=CP3 two-way serial driver
 mI=5
-I1=352
 mO=3
 tO=3
-O1=351
 mP=3
 P1=
 P2=
@@ -21598,6 +21606,29 @@ Nm=CP3 RS-232 only two-way serial driver
 ObjVer=1
 SmVr=1220
 DvH=588
+PrH=8
+CF=2
+n1I=3
+n1O=2
+Cmn1=CP3 RS-232 only two-way serial driver
+mI=3
+I1=352
+mO=2
+tO=2
+O1=351
+mP=3
+P1=
+P2=
+P3=
+]
+[
+ObjTp=Sm
+H=675
+SmC=3398
+Nm=CP3 RS-232 only two-way serial driver
+ObjVer=1
+SmVr=1220
+DvH=589
 PrH=8
 CF=2
 n1I=3
