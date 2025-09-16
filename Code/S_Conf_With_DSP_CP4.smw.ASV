@@ -1595,6 +1595,7 @@ SmH=674
 RelStat=Release
 ProdLine=Fusion
 DbH=8
+CsH=3
 EtH=1
 SbObjRev=2
 ]
@@ -3065,6 +3066,11 @@ H=2
 DvH=586
 ]
 [
+ObjTp=Cs
+H=3
+DvH=589
+]
+[
 ObjTp=FP
 ]
 [
@@ -3079,7 +3085,7 @@ ObjTp=Et
 H=1
 DvH=589
 IPM=255.255.255.0
-IPA=127.0.0.1
+IPA=10.174.132.245
 ]
 [
 ObjTp=Et
