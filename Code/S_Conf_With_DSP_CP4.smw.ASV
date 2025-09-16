@@ -3075,34 +3075,6 @@ Sy1=0
 Mx1=0
 ]
 [
-ObjTp=Bw
-H=1
-Lx=0
-Ly=427
-Rx=1475
-Ry=854
-Xm=-1
-Ym=-1
-SH=673
-Z=100
-Ht=4
-Hi=1
-]
-[
-ObjTp=Bw
-H=1
-Lx=0
-Ly=0
-Rx=1475
-Ry=427
-Xm=-1
-Ym=-1
-SH=173
-Z=100
-Ht=4
-Hi=1
-]
-[
 ObjTp=Et
 H=2
 DvH=590
@@ -9508,10 +9480,8 @@ n1I=5
 n1O=3
 Cmn1=CP3 two-way serial driver
 mI=5
-I1=352
 mO=3
 tO=3
-O1=351
 mP=3
 P1=
 P2=
@@ -21642,9 +21612,10 @@ n1I=3
 n1O=2
 Cmn1=CP3 RS-232 only two-way serial driver
 mI=3
-I1=1795
+I1=352
 mO=2
 tO=2
+O1=351
 mP=3
 P1=
 P2=
@@ -21664,6 +21635,7 @@ n1I=3
 n1O=2
 Cmn1=CP3 RS-232 only two-way serial driver
 mI=3
+I1=1795
 mO=2
 tO=2
 mP=3
