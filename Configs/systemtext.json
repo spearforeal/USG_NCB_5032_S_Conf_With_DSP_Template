@@ -8,29 +8,29 @@
             "Select the source and location you would like to route the source to."
         ],
         "SingleDestRoutingInstructions":[
-            "Please select your source below."
-        ],
+            "Please select the source below."
+          ],
         "MicControlPageTitle":["Mic Control"],
         "CameraSrcInstructions":["Please select your source"],
-        "Mode1HelpMessage1":["This message is the mode 1 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
-        "Mode1HelpMessage2":["This message is the mode 1 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode1HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
+        "Mode1HelpMessage2":["This is the Video Routing page. Select the video source to be routed to the destination."],
 
-        "Mode2HelpMessage1":["Donkeys are the best at poker"],
-        "Mode2HelpMessage2":["This message is the mode 2 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode2HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
+        "Mode2HelpMessage2":["This is the Display Control page. Here Displays can be powered on/off manually."],
 
-        "Mode3HelpMessage1":["This message is the mode 3 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
-        "Mode3HelpMessage2":["This message is the mode 3 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode3HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
+        "Mode3HelpMessage2":["This is the Camera Control page. Use the controls here to adjust and aim the camera as desired. The source selected is routed to the far end."],
 
-        "Mode4HelpMessage1":["This message is the mode 4 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
-        "Mode4HelpMessage2":["This message is the mode 4 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode4HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
+        "Mode4HelpMessage2":["This is the lighting control page. Select the desired lighting scene."],
 
-        "Mode5HelpMessage1":["This message is the mode 5 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
-        "Mode5HelpMessage2":["This message is the mode 5 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode5HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
+        "Mode5HelpMessage2":["This is the Audio Controls page. Select the source type on the left, and adjust the level as needed"],
 
-        "Mode6HelpMessage1":["This message is the mode 6 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
-        "Mode6HelpMessage2":["This message is the mode 6 help message 2 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode6HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
+        "Mode6HelpMessage2":["This is the Audio Conferencing page. Dial or End calls here"],
 
-        "Mode7HelpMessage1":["This message is the mode 7 help message 1 of 2. I suppose that there should be some information here but I got nothing."],
+        "Mode7HelpMessage1":["Selecting the buttons above will switch the page to access the other control pages."],
         "Mode7HelpMessage2":["This message is the mode 7 help message 2 of 2. I suppose that there should be some information here but I got nothing."]
 
     }

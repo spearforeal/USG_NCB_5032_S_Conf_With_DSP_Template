@@ -1,7 +1,7 @@
 namespace SSHClientDriver;
         // class declarations
-         class SSHClientDevice;
-     class SSHClientDevice 
+         class SshClientDevice;
+     class SshClientDevice 
     {
         // class delegates
         delegate FUNCTION InitializedDataHandler ( INTEGER state );
@@ -15,12 +15,12 @@ namespace SSHClientDriver;
         FUNCTION Initialize ( STRING hostname , SIGNED_LONG_INTEGER port , STRING username , STRING password , STRING debugName );
         FUNCTION Connect ();
         FUNCTION Disconnect ();
-        FUNCTION SendCommand ( STRING Command );
+        FUNCTION SendCommand ( STRING command );
         SIGNED_LONG_INTEGER_FUNCTION GetHashCode ();
         STRING_FUNCTION ToString ();
 
         // class variables
-        INTEGER debugEnable;
+        INTEGER DebugEnable;
 
         // class properties
         DelegateProperty InitializedDataHandler InitializedData;

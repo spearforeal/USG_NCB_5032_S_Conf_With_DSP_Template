@@ -21,7 +21,7 @@ STRING_OUTPUT _SKIP_,_SKIP_,_SKIP_, rx$, _SKIP_;
 
 integer connected;
 integer method;
-SSHClientDevice client;
+SshClientDevice client;
 function RegisterDelegates()
 {
 	RegisterDelegate(client, InitializedData, InitializedDataHandler);
@@ -56,7 +56,11 @@ PUSH Initialize
 }
 PUSH Connect
 {
-	client.Connect();
+	if(connected = 0)
+	{
+		client.Connect();
+		
+	}
 }
 PUSH Disconnect
 {
@@ -64,11 +68,11 @@ PUSH Disconnect
 }
 PUSH Debug
 {
-	client.debugEnable = 1;
+	client.DebugEnable = 1;
 }
 RELEASE Debug
 {
-	client.debugEnable = 0;
+	client.DebugEnable = 0;
 }
 PUSH Use_Parameters
 {
