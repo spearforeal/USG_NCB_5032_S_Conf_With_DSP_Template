@@ -16,7 +16,7 @@ SPlsWork
 # Crestron VTPro Files
 #*.vtp
 #*.vtz
-*.c3prj
+#*.c3prj
 # *.ced
 # *.sgd
 
