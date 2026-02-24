@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=S_Conf_With_DSP_Template_TSW-1070_[MODE]ATC_ATCControlPageTitle.ced
 Hint=ATCControlPageTitle (Smart Object ID=25)
-Code=28
+Code=29
 SGControlType=Subpage Reference List Horizontal
 SGControlName=ATCControlPageTitle
 GUID=8B3D3543-0B8F-4C6E-8687-3DB592000687
@@ -180,14 +180,14 @@ OutputList3SigType13=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=28
-CedH=28
+Pp1=29
+CedH=29
 SmartObjId=25d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=28
+H=29
 Tp=1
 HD=TRUE
 DV=25d
@@ -200,7 +200,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=28
+H=29
 Name=S_Conf_With_DSP_Template_TSW-1070_[MODE]ATC_ATCControlPageTitle.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.

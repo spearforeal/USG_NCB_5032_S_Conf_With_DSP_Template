@@ -10,7 +10,7 @@ VTProeVer=6.2.02
 ObjTp=Symbol
 Name=S_Conf_With_DSP_Template_TSW-1070_[MODE]AudioControl_AudioControlList.ced
 Hint=AudioControlList (Smart Object ID=13)
-Code=18
+Code=19
 SGControlType=Subpage Reference List Horizontal
 SGControlName=AudioControlList
 GUID=239D64DF-350C-4B63-906A-DCC598BF570A
@@ -492,14 +492,14 @@ OutputList3SigType22=Serial
 ParamCue1=SmartObjectId
 ParamSigType1=Constant
 MPp=1
-Pp1=18
-CedH=18
+Pp1=19
+CedH=19
 SmartObjId=13d
 ]
 ; Parameter Properties for Smart Object ID
 [
 ObjTp=Dp
-H=18
+H=19
 Tp=1
 HD=TRUE
 DV=13d
@@ -512,7 +512,7 @@ Sgn=0
 ; Smart Objects Definition section
 [
 ObjTp=CED
-H=18
+H=19
 Name=S_Conf_With_DSP_Template_TSW-1070_[MODE]AudioControl_AudioControlList.ced
 ;Cedver is the version of the Smart Graphics control, not the CED file format.
 ;If the control definition changes, increment this.
