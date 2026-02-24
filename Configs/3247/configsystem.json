@@ -1,0 +1,370 @@
+{
+    "SystemConfig": {
+        "SystemName": [
+            "NCB_RM 3247"
+        ],
+        "CustomerNumber": [
+            "3248"
+        ],
+        "SiteNumber": [
+            "59288311"
+        ],
+        "AutoshutdownEnable": [
+            "True"
+        ],
+        "DSP01IpAddress": [
+            "10.60.3.23"
+        ],
+        "PasswordInUse": [
+            "false"
+        ],
+        "UserPassword": [
+            "2234"
+        ],
+        "USBSwitcherHostname": [
+            "10.60.3.213"
+        ],
+        "USBSwitcherUsername": [
+            "admin"
+        ],
+        "USBSwitcherPassword": [
+            "8012662428"
+        ],
+        "USBSwitcherDebugname": [
+            "Somehost debugname"
+        ],
+        "USBSwitcherPortnumber": [
+            22023
+        ],
+        "CameraSpeedLow":[3],
+        "CameraSpeedHigh":[12],
+        "CameraZoomSpeedLow":[1],
+        "CameraZoomSpeedHigh":[4],
+        "Camera1IpAddress": [
+            "10.60.3.46"
+        ],
+        "Camera1UserName": [
+            "admin"
+        ],
+        "Camera1Password": [
+            "8012662428"
+        ],
+        "ModeNames": [
+            "Routing",
+            "Display Control",
+            "Camera Control",
+            "Lighting Control",
+            "Audio Control",
+            "ATC",
+            "Mode 7"
+        ],
+        "ModeVisibility": [
+            "true",
+            "true",
+            "true",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        "ModeIcons": [
+            "Connector Plate",
+            "TV",
+            "Camera",
+            "Lights",
+            "Volume",
+            "Phone",
+            "Display"
+        ],
+        "AudioControlSubMenuNames": [
+            "Line",
+            "Mic",
+            "Outputs",
+            "Inputs",
+            "Mixes"
+        ],
+        "AudioControlSubMenuVisibility": [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "SourceNames": [
+            "AirServer",
+            "Decoder",
+            "Camera",
+            "PC",
+            "PC 2",
+            "Source 6",
+            "Table 1",
+            "Table 2",
+            "Source 9",
+            "Source 10"
+        ],
+        "SourceVisibility": [
+            "true",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ],
+        "SourceIcons": [
+            "Wireless Device",
+            "HD",
+            "Camera",
+            "Video Output",
+            "Video Output",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop",
+            "Laptop"
+        ],
+        "DetinationNames": [
+            "Output 1",
+            "Output 2",
+            "Output 3",
+            "Output 4",
+            "Output 5",
+            "Output 6",
+            "Output 7",
+            "Output 8",
+            "Output 9",
+            "Output 10"
+        ],
+        "DestinationVisibility": [
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "DestinationIcons": [
+            "Video Screen",
+            "Usb",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display"
+        ],
+        "DisplayNames": [
+            "",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display",
+            "Display"
+        ],
+        "DisplayVisibility": [
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "DisplayPresetNames": [
+            "On",
+            "Off",
+            "Preset 3",
+            "Preset 4",
+            "Preset 5",
+            "Preset 6",
+            "Preset 7",
+            "Preset 8",
+            "Preset 9",
+            "Preset 10"
+        ],
+        "DisplayPresetVisibility": [
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "AudioControlNames": [
+            "Speakers",
+            "Audio Control 2",
+            "Audio Control 3",
+            "Audio Control 4",
+            "Audio Control 5",
+            "Audio Control 6",
+            "Audio Control 7",
+            "Audio Control 8",
+            "Audio Control 9",
+            "Audio Control 10"
+        ],
+        "AudioControlVisibility": [
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "MicControlNames": [
+            "Privacy",
+            "Mic Control 2",
+            "Mic Control 3",
+            "Mic Control 4",
+            "Mic Control 5",
+            "Mic Control 6",
+            "Mic Control 7",
+            "Mic Control 8",
+            "Mic Control 9",
+            "Mic Control 10"
+        ],
+        "MicControlVisibility": [
+            "true",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false",
+            "false"
+        ],
+        "LightingPresetNames": [
+            "All On",
+            "All Off",
+            "Scene 1",
+            "Scene 2",
+            "Scene 3",
+            "Scene 4",
+            "Up",
+            "Down"
+        ],
+        "LightingPresetVisibility": [
+            "true",
+            "True",
+            "True",
+            "true",
+            "True",
+            "True",
+            "True",
+            "True"
+        ],
+        "ShadeVisibility": [
+            "false",
+            "false",
+            "false",
+            "False",
+            "False",
+            "False"
+        ],
+        "ShadeIcon": [
+            "Up Alt",
+            "Stop",
+            "Down Alt",
+            "Stop",
+            "Stop",
+            "Stop"
+        ],
+        "CameraVisibility": [
+            "True",
+            "False",
+            "False",
+            "False",
+            "False",
+            "False"
+        ],
+        "CameraNames": [
+            "Camera",
+            "Camera",
+            "Camera",
+            "Camera",
+            "Camera",
+            "Camera"
+        ],
+        "CameraCtrlVisibility": [
+            "True",
+            "True",
+            "True",
+            "True",
+            "True",
+            "False"
+        ],
+        "CameraCtrlNames": [
+            "Power On",
+            "Power Off",
+            "Zoom +",
+            "Zoom -",
+            "Home",
+            "Ctrl 6"
+        ],
+        "CameraCtrlIcon": [
+            27,
+            27,
+            61,
+            61,
+            14,
+            61
+        ],
+        "CameraSpeedNames":[
+            "Slow",
+            "Fast"
+        ],
+        "CameraSpeedIcon":[
+            14,
+            14
+        ],
+        "CameraPresetVisibility": [
+            "True",
+            "True",
+            "True",
+            "True"
+        ],
+        "CameraPresetNames": [
+            "Preset 1",
+            "Preset 2",
+            "Preset 3",
+            "Preset 4"
+        ],
+        "CameraControlSourceVisible": [
+            "true",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false",
+            "true",
+            "true",
+            "false",
+            "false"
+        ]
+    }
+}
