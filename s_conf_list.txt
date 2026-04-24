@@ -1,0 +1,12 @@
+s_conf_list.txt
+
+With DSP:
+200 - Dale Morgan - Museum
+2111 - Helen Papanikolas - Museum
+3103 - Lincoln Conference
+3107 - Boathouse
+3247 - Lennis Knighton
+4103 - Atrium Conference
+4243 - East Conference
+
+
